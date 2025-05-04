@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Sigil Constructor</title>
+</head>
+
+<body>
+
+
+    <div>
+        <p>
+        <h1> Library of Sigils</h1>
+
+
+        The original most esoteric and fundamental form of arcanic spellcasting, the first of them found in the West
+        to form spells from scratch, carving meaning into the Veil and pulling the Ether’s strength.<br>
+        Being so close to the Ether however has its dangers, and a single mistake can cause disaster. <br><br>
+
+        <strong>WARNING:</strong> <br>
+        Consenquences may include, but are not exhausative: <br>
+        <ul>
+            <li>Your sigils being confiscated by God herself</li>
+            <li>Your immediate deportation from reality</li>
+            <li>Explosions</li>
+            <li>Rips in reality</li>
+            <li>Destruction of property</li>
+            <li>Cause spiders to transform and eviscerate you</li>
+            <li>Death</li>
+            </p>
+    </div>
+
+
+    <h1>Sequence: </h1>
+    <div>
+        <h2>Sigil Name</h2>
+        <p><strong>Permutation:</strong> </p>
+        <p><strong>Base Definition:</strong> </p>
+        <p><strong>Base Casting:</strong></p>
+        <p><strong>Spell Description:</strong></p>
+    </div>
+
+
+
+    <p th:if="${sigil == null}" style="color: red;" th:text="${error}"></p>
+
+    <div>
+        <form action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'L'}" />
+            <button type="submit"><Strong>Append L</Strong></button>
+        </form>
+        <form action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'P'}" />
+            <button type="submit"><Strong>Append P</Strong></button>
+        </form>
+        <form action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'A'}" />
+            <button type="submit"><Strong>Append A</Strong></button>
+        </form>
+        <form action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'Di'}" />
+            <button type="submit"><Strong>Append Di</Strong></button>
+        </form>
+        <form action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'Sp'}" />
+            <button type="submit"><Strong>Append Sp</Strong></button>
+        </form>
+        <form action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'Li'}" />
+            <button type="submit"><Strong>Append Li</Strong></button>
+        </form>
+        <form action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'C'}" />
+            <button type="submit"><Strong>Append C</Strong></button>
+        </form>
+        <form action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'W'}" />
+            <button type="submit"><Strong>Append W</Strong></button>
+        </form>
+        <form action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'E'}" />
+            <button type="submit"><Strong>Append E</Strong></button>
+        </form>
+        <form action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'F'}" />
+            <button type="submit"><Strong>Append F</Strong></button>
+        </form>
+        <form action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'Ai'}" />
+            <button type="submit"><Strong>Append Ai</Strong></button>
+        </form>
+
+    </div>
+
+
+
+    <div>
+        <h2>Label Description</h2>
+        <ul>
+            <li><strong>L:</strong> Light </span></li>
+            <li><strong>P:</strong> Proliferation</span></li>
+            <li><strong>A:</strong> Atrophy</span></li>
+            <li><strong>Di:</strong> Division</span></li>
+            <li><strong>Sp:</strong> Space</span></li>
+            <li><strong>Li:</strong> Life</span></li>
+            <li><strong>C:</strong> Connection</span></li>
+            <li><strong>W:</strong> Water</span></li>
+            <li><strong>E:</strong> Earth</span></li>
+            <li><strong>F:</strong> Fire</span></li>
+            <li><strong>Ai:</strong> Air</span></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

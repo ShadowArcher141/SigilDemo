@@ -1,0 +1,261 @@
+[
+  {
+    "name": "Null",
+    "permutation": "Undefined",
+    "baseDefinition": "Undefined",
+    "baseCasting": "No data",
+    "spellDescription": "No description"
+  },
+  {
+    "name": "Ether",
+    "permutation": "Prime",
+    "baseDefinition": "Essence of magic",
+    "baseCasting": "Create a burst of magic flow",
+    "spellDescription": "Create a tiny tear into the Ethereal Plane that deals 1d6 force damage"
+  },
+  {
+    "name": "Object",
+    "permutation": "Primary",
+    "baseDefinition": "Inorganic substances free of magic",
+    "baseCasting": "Suffuse the nearest object or construct with Ether",
+    "spellDescription": "Increase the durability of the nearest 1 by 1 by 1 foot object and render it unbreakable instantaneously"
+  },
+  {
+    "name": "Life",
+    "permutation": "Primary",
+    "baseDefinition": "Essence that grants capacity for life",
+    "baseCasting": "Create a transient life form",
+    "spellDescription": "Create a 1 by 1 by 1 by 1 foot creature instantaneously of undetermined shape"
+  },
+  {
+    "name": "Proliferation",
+    "permutation": "Primary",
+    "baseDefinition": "Rapid increase in amount",
+    "baseCasting": "Cause a small burst of the air the sigil is drawn in",
+    "spellDescription": "Push all objects and creatures within a 1 by 1 by 1 foot space"
+  },
+  {
+    "name": "Atrophy",
+    "permutation": "Primary",
+    "baseDefinition": "Progressive decline in amount",
+    "baseCasting": "Cause a small vacuum of the air the sigil is drawn in",
+    "spellDescription": "Pull in objects and creatures within a 1 by 1 by 1 foot space"
+  },
+  {
+    "name": "Division",
+    "permutation": "Primary",
+    "baseDefinition": "Separation into parts",
+    "baseCasting": "Cause a small burst of heat in the air the sigil is drawn in",
+    "spellDescription": "Create a 1 by 1 by 1 foot burst of heat that deals 1d6 fire damage"
+  },
+  {
+    "name": "Light",
+    "permutation": "Primary",
+    "baseDefinition": "Essence that illuminates",
+    "baseCasting": "Causes the air to become illuminated in a small space",
+    "spellDescription": "Create a 1 by 1 by 1 foot burst of light"
+  },
+  {
+    "name": "Space",
+    "permutation": "Primary",
+    "baseDefinition": "Dimensions within which existance is",
+    "baseCasting": "Causes space to be distorted temporarily in a small space",
+    "spellDescription": "Cause a distortion in space that warps attacks, roll 1d6, on a 1 the hit misses no matter what, and a 6 hits no matter what"
+  },
+  {
+    "name": "Connection",
+    "permutation": "Primary",
+    "baseDefinition": "Link between all things",
+    "baseCasting": "Create a temporary link between yourself and the object or creature",
+    "spellDescription": "Link yourself to the nearest creature, share damage and healing"
+  },
+  {
+    "name": "Water",
+    "permutation": "Primary",
+    "baseDefinition": "That which makes up what we drink",
+    "baseCasting": "Create a small amount of water",
+    "spellDescription": "Create a 1 by 1 by 1 foot cube of water in the air, which immedietly falls to the ground"
+  },
+  {
+    "name": "Earth",
+    "permutation": "Primary",
+    "baseDefinition": "That which makes up what we tread",
+    "baseCasting": "Create a small amount of earth",
+    "spellDescription": "Create a 1 by 1 by 1 foot cube of earth comprising local earth in the air, which immedietly falls to the ground"
+  },
+  {
+    "name": "Fire",
+    "permutation": "Primary",
+    "baseDefinition": "That which makes up our heat",
+    "baseCasting": "Create a small amount of fire",
+    "spellDescription": "Create a 1 by 1 by 1 foot cube of fire in the air dealing 1d6 fire damage on a failed Dex save and dissapates"
+  },
+  {
+    "name": "Air",
+    "permutation": "Primary",
+    "baseDefinition": "That which makes up what we breath",
+    "baseCasting": "Create a small amount of air",
+    "spellDescription": "Create a 1 by 1 by 1 foot cube of air, which is breathable and pushes out any gas or liquid in the space before dissipating normally"
+  },
+  {
+    "name": "Animal",
+    "permutation": "Secondary",
+    "baseDefinition": "Biological terrestrial creatures free of magic",
+    "baseCasting": "Suffuse the nearest  terrestrial humanoid, beast, or monstrosity with Ether",
+    "spellDescription": "Cause the nearest creature to become magical"
+  },
+  {
+    "name": "Aquatic",
+    "permutation": "Secondary",
+    "baseDefinition": "Biological marine creatures free of magic",
+    "baseCasting": "Suffuse the nearest marine humanoid, beast, or monstrosity with Ether",
+    "spellDescription": "Cause the nearest creature to become magical"
+  },
+  {
+    "name": "Avian",
+    "permutation": "Secondary",
+    "baseDefinition": "Biological aerial creatures free of magic",
+    "baseCasting": "Suffuse the nearest aerial humanoid, beast, or monstrosity with Ether",
+    "spellDescription": "Cause the nearest creature to become magical"
+  },
+  {
+    "name": "Plant",
+    "permutation": "Secondary",
+    "baseDefinition": "Biological fauna free of magic",
+    "baseCasting": "Suffuse the nearest plant with Ether",
+    "spellDescription": "Increase the growth of the nearest plant"
+  },
+  {
+    "name": "Animate",
+    "permutation": "Secondary",
+    "baseDefinition": "To bring inorganic substance to life",
+    "baseCasting": "Causes the nearest object to begin moving",
+    "spellDescription": "Cause the nearest object to move up to 1 foot"
+  },
+  {
+    "name": "Health",
+    "permutation": "Secondary",
+    "baseDefinition": "Capacity for life",
+    "baseCasting": "Suffuse the nearest creature with increased health capacity",
+    "spellDescription": "Increase the max HP of the nearest creature by 1"
+  },
+  {
+    "name": "Motion",
+    "permutation": "Secondary",
+    "baseDefinition": "Movement within space",
+    "baseCasting": "Increase movement speed",
+    "spellDescription": "Increase the max movement speed of the nearest creature by 1"
+  },
+  {
+    "name": "Erosion",
+    "permutation": "Secondary",
+    "baseDefinition": "The deconstruction of earth",
+    "baseCasting": "Erode a small amount of earth",
+    "spellDescription": "Break down a 1 by 1 by 1 foot cube of earth into its loosened constituents - revealing flaws in rock, reducing sandstone to sand, and packed dirt to loose"
+  },
+  {
+    "name": "Cloud",
+    "permutation": "Secondary",
+    "baseDefinition": "Those vapors which ride the winds",
+    "baseCasting": "Create a small amount of cloud",
+    "spellDescription": "Create a 1 by 1 by 1 foot cube of cool cloud vapor that can obscure vision and quench open nonmagical flames"
+  },
+  {
+    "name": "Rain",
+    "permutation": "Secondary",
+    "baseDefinition": "The gift of water from the heavens",
+    "baseCasting": "Create a small amount of rain",
+    "spellDescription": "Create a column of rain in a 1 by 1 by 1 foot space which falls promptly before dissapating"
+  },
+  {
+    "name": "Mud",
+    "permutation": "Secondary",
+    "baseDefinition": "The composite solution of soft earth",
+    "baseCasting": "Create a small amount of mud",
+    "spellDescription": "Transform a 1 by 1 by 1 foot cube of earth into mud which counts as difficult terrain, on initial movement into it they must succeed a Str save or lose all movement speed for their turn"
+  },
+  {
+    "name": "Lava",
+    "permutation": "Secondary",
+    "baseDefinition": "The molten blood of the earth",
+    "baseCasting": "Create a small amount of lava",
+    "spellDescription": "Transform a 1 by 1 by 1 foot cube of earth into lava which deals 2d6 fire damage on a failed Con save before returning to stone in an unoccupied space"
+  },
+  {
+    "name": "Sand",
+    "permutation": "Secondary",
+    "baseDefinition": "The weathered grains of earth",
+    "baseCasting": "Create a small amount of sand",
+    "spellDescription": "Transform a 1 by 1 by 1 foot cube of stone into sand, not including dirt"
+  },
+  {
+    "name": "Explosion",
+    "permutation": "Secondary",
+    "baseDefinition": "The violent release of energy",
+    "baseCasting": "Create a small explosion",
+    "spellDescription": "Create an explosion in a 1 by 1 by 1 foot cube space which deals 2d6 force damage on a failed Dex save before dissapating"
+  },
+  {
+    "name": "Cinder",
+    "permutation": "Secondary",
+    "baseDefinition": "That which is charred but cannot burn",
+    "baseCasting": "Suffuse the nearest object to become heated",
+    "spellDescription": "Causes the nearest 1 by 1 by 1 foot cube object to emit heat which deals 1d10 fire damage on a failed Con save. It can also boil water"
+  },
+  {
+    "name": "Combustion",
+    "permutation": "Secondary",
+    "baseDefinition": "That spark which leads to blaze",
+    "baseCasting": "Causes the nearest object to alight",
+    "spellDescription": "Causes the nearest 1 by 1 by 1 foot cube flammable object to catch alight"
+  },
+  {
+    "name": "Ice",
+    "permutation": "Secondary",
+    "baseDefinition": "That which is frozen",
+    "baseCasting": "Suffuse the nearest object to become cold",
+    "spellDescription": "Causes the nearest 1 by 1 by 1 foot object to begin freezing which deals 1d10 cold damage on a failed Con save. It can also cool an area and freeze water"
+  },
+  {
+    "name": "Loess",
+    "permutation": "Secondary",
+    "baseDefinition": "That earth which rides the winds",
+    "baseCasting": "Causes nearby earth into the air",
+    "spellDescription": "Create a 1 by 1 by 1 foot cloud of loose earth from the area that can obscure vision and which blinds anyone who fails a Dex save"
+  },
+  {
+    "name": "Smoke",
+    "permutation": "Secondary",
+    "baseDefinition": "Those remnants of flame which ride the winds",
+    "baseCasting": "Create a small amount of smoke",
+    "spellDescription": "Create a 1 by 1 by 1 foot plume of smoke that can obscure vision and which stuns a creature into a hacking cough on a failed Con save"
+  },
+  {
+    "name": "Acceleration",
+    "permutation": "Tertiary",
+    "baseDefinition": "Increase in rate of motion",
+    "baseCasting": "Increase movement speed over time",
+    "spellDescription": "Increase the max movement speed of the nearest creature by 1 every 10 rounds"
+  },
+  {
+    "name": "Slow",
+    "permutation": "Tertiary",
+    "baseDefinition": "Decrease in rate of motion",
+    "baseCasting": "Decrease movement speed",
+    "spellDescription": "Decrease max movement speed of the nearest creature by 1"
+  },
+  {
+    "name": "Nexus",
+    "permutation": "Quaternary",
+    "baseDefinition": "Connection between two points; pathway",
+    "baseCasting": "Teleport between very specific distances",
+    "spellDescription": "Teleport to a location 1 ft away in only cardinal directions"
+  },
+  {
+    "name": "Teleport",
+    "permutation": "Quinary",
+    "baseDefinition": "Dissociation from current location to nexus",
+    "baseCasting": "Teleport freely within range",
+    "spellDescription": "Teleport to a location 1 ft away"
+  }
+]

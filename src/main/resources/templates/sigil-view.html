@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title th:text="${sigil?.name ?: 'Unknown Sigil'}">Sigil</title>
+</head>
+
+<body>
+    <h1 th:text="'Abbreviation: ' + ${sequence}"></h1>
+    <h1 th:text="'Sequence: ' + ${sigilSequenceLong}"></h1>
+
+    <div th:if="${sigil != null}">
+        <h2 th:text="${sigil.name}">Sigil Name</h2>
+        <p><strong>Permutation:</strong> <span th:text="${sigil.permutation}"></span></p>
+        <p><strong>Base Definition:</strong> <span th:text="${sigil.baseDefinition}"></span></p>
+        <p><strong>Base Casting:</strong> <span th:text="${sigil.baseCasting}"></span></p>
+        <p><strong>Spell Description:</strong> <span th:text="${sigil.spellDescription}"></span></p>
+    </div>
+
+    <div th:if="${sigil == null}">
+        <h2 style="color: red;">Unknown Sigil</h2>
+        <p><strong>Permutation:</strong> Unclassified</p>
+        <p><strong>Base Definition:</strong> Undefined</p>
+        <p><strong>Base Casting:</strong> No data</p>
+        <p><strong>Spell Description:</strong> No data</p>
+    </div>
+    <!-- Add buttons to append to the sequence -->
+
+
+
+
+
+
+    <div>
+        <!-- Button for "O" -->
+        <form th:if="${showObjectButton}" action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'O'}" />
+            <button type="submit">Append O</button>
+        </form>
+
+        <!-- Button for "Et" -->
+        <form th:if="${showEtherButton}" action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'Et'}" />
+            <button type="submit">Append Et</button>
+        </form>
+        <!-- Button for "L" -->
+        <form th:if="${showLifeButton}" action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'L'}" />
+            <button type="submit">Append L</button>
+        </form>
+        <!-- Button for "P" -->
+        <form th:if="${showProliferationButton}" action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'P'}" />
+            <button type="submit">Append P</button>
+        </form>
+        <!-- Button for "A" -->
+        <form th:if="${showAtrophyButton}" action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'A'}" />
+            <button type="submit">Append A</button>
+        </form>
+        <!-- Button for "Di" -->
+        <form th:if="${showDivisionButton}" action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'Di'}" />
+            <button type="submit">Append Di</button>
+        </form>
+        <!-- Button for "Sp" -->
+        <form th:if="${showSpaceButton}" action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'Sp'}" />
+            <button type="submit">Append Sp</button>
+        </form>
+        <!-- Button for "Li" -->
+        <form th:if="${showLightButton}" action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'Li'}" />
+            <button type="submit">Append Li</button>
+        </form>
+        <!-- Button for "C" -->
+        <form th:if="${showConnectionButton}" action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'C'}" />
+            <button type="submit">Append C</button>
+        </form>
+        <!-- Button for "W" -->
+        <form th:if="${showWaterButton}" action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'W'}" />
+            <button type="submit">Append W</button>
+        </form>
+        <!-- Button for "E" -->
+        <form th:if="${showEarthButton}" action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'E'}" />
+            <button type="submit">Append E</button>
+        </form>
+        <!-- Button for "F" -->
+        <form th:if="${showFireButton}" action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'F'}" />
+            <button type="submit">Append F</button>
+        </form>
+        <!-- Button for "Ai" -->
+        <form th:if="${showAirButton}" action="#" th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${sequence + 'Ai'}" />
+            <button type="submit">Append Ai</button>
+        </form>
+
+
+        <br><br>
+        <!-- Back Button (Navigation) -->
+        <form th:action="@{/sigil}" method="get" style="display:inline;">
+            <!-- Hidden field to pass the previous sequence -->
+            <input type="hidden" name="sequence" th:value="${prevSequence}" />
+            <button type="submit">Back</button>
+        </form>
+        <!-- Clear -->
+        <form th:action="@{/sigil}" method="get" style="display:inline;">
+            <input type="hidden" name="sequence" th:value="${''}" />
+            <button type="submit">Clear</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title th:text="${sigil?.name ?: 'Unknown Sigil'}">Sigil</title>
+</head>
+
+<body>
+    <h1 th:text="'Sequence: ' + ${sequence}"></h1>
+
+    <div th:if="${sigil != null}">
+        <h2 th:text="${sigil.name}">Sigil Name</h2>
+        <p><strong>Permutation:</strong> <span th:text="${sigil.permutation}"></span></p>
+        <p><strong>Base Definition:</strong> <span th:text="${sigil.baseDefinition}"></span></p>
+        <p><strong>Base Casting:</strong> <span th:text="${sigil.baseCasting}"></span></p>
+        <p><strong>Spell Description:</strong> <span th:text="${sigil.spellDescription}"></span></p>
+    </div>
+
+    <p th:if="${sigil == null}" style="color: red;" th:text="${error}"></p>
+</body>
+
+</html> -->
